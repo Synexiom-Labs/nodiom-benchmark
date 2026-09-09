@@ -1,0 +1,23 @@
+{
+  "name": "nodiom-benchmark",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/generate.ts",
+    "benchmark": "tsx src/benchmark.ts",
+    "verify": "tsx src/verify.ts",
+    "all": "npm run generate && npm run verify && npm run integrity && npm run benchmark",
+    "demo": "tsx src/demo.ts",
+    "integrity": "tsx src/integrity.ts",
+    "latency": "tsx src/latency.ts"
+  },
+  "dependencies": {
+    "@synexiom-labs/nodiom": "latest",
+    "js-tiktoken": "^1.0.21"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

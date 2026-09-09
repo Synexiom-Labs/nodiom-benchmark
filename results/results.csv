@@ -1,0 +1,81 @@
+document,documentBytes,documentTokens,operation,selector,approach,inputTokens,outputTokens,totalTokens,discoveryTokens,costUsd,cachedCostUsd,exceedsOutputCap,model
+10kb,13159,2282,modify overview,# Project 001 > ## Overview,Full rewrite,2282,2286,4568,0,0.06856,0.058290999999999996,false,claude-opus-5
+10kb,13159,2282,modify overview,# Project 001 > ## Overview,Read + patch,2282,21,2303,0,0.011935,0.001666,false,claude-opus-5
+10kb,13159,2282,modify overview,# Project 001 > ## Overview,Grep + patch,23,21,44,0,0.0006399999999999999,0.0005365,false,claude-opus-5
+10kb,13159,2282,modify overview,# Project 001 > ## Overview,Nodiom,78,82,160,200,0.0024400000000000003,0.002089,false,claude-opus-5
+10kb,13159,2282,modify backend,# Project 002 > ## Architecture > ### Backend,Full rewrite,2282,2287,4569,0,0.068585,0.058316,false,claude-opus-5
+10kb,13159,2282,modify backend,# Project 002 > ## Architecture > ### Backend,Read + patch,2282,760,3042,0,0.03041,0.020141,false,claude-opus-5
+10kb,13159,2282,modify backend,# Project 002 > ## Architecture > ### Backend,Grep + patch,429,760,1189,0,0.021145,0.0192145,false,claude-opus-5
+10kb,13159,2282,modify backend,# Project 002 > ## Architecture > ### Backend,Nodiom,63,68,131,200,0.002015,0.0017315,false,claude-opus-5
+10kb,13159,2282,modify decision,# Project 003 > ## Decisions,Full rewrite,2282,2287,4569,0,0.068585,0.058316,false,claude-opus-5
+10kb,13159,2282,modify decision,# Project 003 > ## Decisions,Read + patch,2282,894,3176,0,0.03376,0.023491,false,claude-opus-5
+10kb,13159,2282,modify decision,# Project 003 > ## Decisions,Grep + patch,492,894,1386,0,0.024810000000000002,0.022596,false,claude-opus-5
+10kb,13159,2282,modify decision,# Project 003 > ## Decisions,Nodiom,57,62,119,200,0.0018350000000000003,0.0015785000000000003,false,claude-opus-5
+10kb,13159,2282,modify notes,# Project 003 > ## Notes,Full rewrite,2282,2284,4566,0,0.06851,0.058241,false,claude-opus-5
+10kb,13159,2282,modify notes,# Project 003 > ## Notes,Read + patch,2282,649,2931,0,0.027635,0.017366,false,claude-opus-5
+10kb,13159,2282,modify notes,# Project 003 > ## Notes,Grep + patch,371,649,1020,0,0.01808,0.0164105,false,claude-opus-5
+10kb,13159,2282,modify notes,# Project 003 > ## Notes,Nodiom,41,43,84,200,0.0012799999999999999,0.0010955,false,claude-opus-5
+10kb,13159,2282,modify risks,# Project 004 > ## Risks,Full rewrite,2282,2290,4572,0,0.06866,0.058391,false,claude-opus-5
+10kb,13159,2282,modify risks,# Project 004 > ## Risks,Read + patch,2282,1140,3422,0,0.03991,0.029640999999999997,false,claude-opus-5
+10kb,13159,2282,modify risks,# Project 004 > ## Risks,Grep + patch,622,1140,1762,0,0.03161,0.028810999999999996,false,claude-opus-5
+10kb,13159,2282,modify risks,# Project 004 > ## Risks,Nodiom,40,48,88,200,0.0014000000000000002,0.0012200000000000002,false,claude-opus-5
+50kb,51871,9014,modify overview,# Project 003 > ## Overview,Full rewrite,9014,9018,18032,0,0.27052,0.22995700000000002,false,claude-opus-5
+50kb,51871,9014,modify overview,# Project 003 > ## Overview,Read + patch,9014,21,9035,0,0.045595,0.005032,false,claude-opus-5
+50kb,51871,9014,modify overview,# Project 003 > ## Overview,Grep + patch,23,21,44,0,0.0006399999999999999,0.0005365,false,claude-opus-5
+50kb,51871,9014,modify overview,# Project 003 > ## Overview,Nodiom,78,82,160,788,0.0024400000000000003,0.002089,false,claude-opus-5
+50kb,51871,9014,modify backend,# Project 006 > ## Architecture > ### Backend,Full rewrite,9014,9019,18033,0,0.270545,0.229982,false,claude-opus-5
+50kb,51871,9014,modify backend,# Project 006 > ## Architecture > ### Backend,Read + patch,9014,760,9774,0,0.06407,0.023507,false,claude-opus-5
+50kb,51871,9014,modify backend,# Project 006 > ## Architecture > ### Backend,Grep + patch,592,760,1352,0,0.02196,0.019296,false,claude-opus-5
+50kb,51871,9014,modify backend,# Project 006 > ## Architecture > ### Backend,Nodiom,63,68,131,788,0.002015,0.0017315,false,claude-opus-5
+50kb,51871,9014,modify decision,# Project 009 > ## Decisions,Full rewrite,9014,9019,18033,0,0.270545,0.229982,false,claude-opus-5
+50kb,51871,9014,modify decision,# Project 009 > ## Decisions,Read + patch,9014,894,9908,0,0.06742000000000001,0.026857000000000002,false,claude-opus-5
+50kb,51871,9014,modify decision,# Project 009 > ## Decisions,Grep + patch,643,894,1537,0,0.025565,0.0226715,false,claude-opus-5
+50kb,51871,9014,modify decision,# Project 009 > ## Decisions,Nodiom,57,62,119,788,0.0018350000000000003,0.0015785000000000003,false,claude-opus-5
+50kb,51871,9014,modify notes,# Project 012 > ## Notes,Full rewrite,9014,9016,18030,0,0.27047,0.229907,false,claude-opus-5
+50kb,51871,9014,modify notes,# Project 012 > ## Notes,Read + patch,9014,649,9663,0,0.061295,0.020732,false,claude-opus-5
+50kb,51871,9014,modify notes,# Project 012 > ## Notes,Grep + patch,522,649,1171,0,0.018835,0.016486,false,claude-opus-5
+50kb,51871,9014,modify notes,# Project 012 > ## Notes,Nodiom,41,43,84,788,0.0012799999999999999,0.0010955,false,claude-opus-5
+50kb,51871,9014,modify risks,# Project 016 > ## Risks,Full rewrite,9014,9022,18036,0,0.27061999999999997,0.230057,false,claude-opus-5
+50kb,51871,9014,modify risks,# Project 016 > ## Risks,Read + patch,9014,1140,10154,0,0.07357,0.033006999999999995,false,claude-opus-5
+50kb,51871,9014,modify risks,# Project 016 > ## Risks,Grep + patch,797,1140,1937,0,0.032485,0.028898499999999997,false,claude-opus-5
+50kb,51871,9014,modify risks,# Project 016 > ## Risks,Nodiom,40,48,88,788,0.0014000000000000002,0.0012200000000000002,false,claude-opus-5
+250kb,258335,44918,modify overview,# Project 012 > ## Overview,Full rewrite,44918,44922,89840,0,1.34764,1.1455089999999999,false,claude-opus-5
+250kb,258335,44918,modify overview,# Project 012 > ## Overview,Read + patch,44918,21,44939,0,0.225115,0.022984000000000004,false,claude-opus-5
+250kb,258335,44918,modify overview,# Project 012 > ## Overview,Grep + patch,24,21,45,0,0.000645,0.0005369999999999999,false,claude-opus-5
+250kb,258335,44918,modify overview,# Project 012 > ## Overview,Nodiom,78,82,160,3924,0.0024400000000000003,0.002089,false,claude-opus-5
+250kb,258335,44918,modify backend,# Project 028 > ## Architecture > ### Backend,Full rewrite,44918,44923,89841,0,1.3476650000000001,1.145534,false,claude-opus-5
+250kb,258335,44918,modify backend,# Project 028 > ## Architecture > ### Backend,Read + patch,44918,760,45678,0,0.24359,0.041459,false,claude-opus-5
+250kb,258335,44918,modify backend,# Project 028 > ## Architecture > ### Backend,Grep + patch,1488,760,2248,0,0.026439999999999998,0.019744,false,claude-opus-5
+250kb,258335,44918,modify backend,# Project 028 > ## Architecture > ### Backend,Nodiom,63,68,131,3924,0.002015,0.0017315,false,claude-opus-5
+250kb,258335,44918,modify decision,# Project 044 > ## Decisions,Full rewrite,44918,44923,89841,0,1.3476650000000001,1.145534,false,claude-opus-5
+250kb,258335,44918,modify decision,# Project 044 > ## Decisions,Read + patch,44918,894,45812,0,0.24694000000000002,0.044809,false,claude-opus-5
+250kb,258335,44918,modify decision,# Project 044 > ## Decisions,Grep + patch,1475,894,2369,0,0.029725,0.0230875,false,claude-opus-5
+250kb,258335,44918,modify decision,# Project 044 > ## Decisions,Nodiom,57,62,119,3924,0.0018350000000000003,0.0015785000000000003,false,claude-opus-5
+250kb,258335,44918,modify notes,# Project 060 > ## Notes,Full rewrite,44918,44920,89838,0,1.34759,1.145459,false,claude-opus-5
+250kb,258335,44918,modify notes,# Project 060 > ## Notes,Read + patch,44918,649,45567,0,0.240815,0.038684,false,claude-opus-5
+250kb,258335,44918,modify notes,# Project 060 > ## Notes,Grep + patch,1354,649,2003,0,0.022995,0.016902,false,claude-opus-5
+250kb,258335,44918,modify notes,# Project 060 > ## Notes,Nodiom,41,43,84,3924,0.0012799999999999999,0.0010955,false,claude-opus-5
+250kb,258335,44918,modify risks,# Project 076 > ## Risks,Full rewrite,44918,44926,89844,0,1.3477400000000002,1.145609,false,claude-opus-5
+250kb,258335,44918,modify risks,# Project 076 > ## Risks,Read + patch,44918,471,45389,0,0.23636500000000002,0.034234,false,claude-opus-5
+250kb,258335,44918,modify risks,# Project 076 > ## Risks,Grep + patch,1422,471,1893,0,0.018885,0.012486,false,claude-opus-5
+250kb,258335,44918,modify risks,# Project 076 > ## Risks,Nodiom,40,48,88,3924,0.0014000000000000002,0.0012200000000000002,false,claude-opus-5
+1mb,1048705,182363,modify overview,# Project 049 > ## Overview,Full rewrite,182363,182367,364730,0,5.47099,4.6503565,true,claude-opus-5
+1mb,1048705,182363,modify overview,# Project 049 > ## Overview,Read + patch,182363,21,182384,0,0.91234,0.09170650000000001,false,claude-opus-5
+1mb,1048705,182363,modify overview,# Project 049 > ## Overview,Grep + patch,24,21,45,0,0.000645,0.0005369999999999999,false,claude-opus-5
+1mb,1048705,182363,modify overview,# Project 049 > ## Overview,Nodiom,78,82,160,15929,0.0024400000000000003,0.002089,false,claude-opus-5
+1mb,1048705,182363,modify backend,# Project 114 > ## Architecture > ### Backend,Full rewrite,182363,182368,364731,0,5.4710149999999995,4.6503815,true,claude-opus-5
+1mb,1048705,182363,modify backend,# Project 114 > ## Architecture > ### Backend,Read + patch,182363,760,183123,0,0.9308150000000001,0.11018150000000002,false,claude-opus-5
+1mb,1048705,182363,modify backend,# Project 114 > ## Architecture > ### Backend,Grep + patch,4918,760,5678,0,0.04359,0.021459,false,claude-opus-5
+1mb,1048705,182363,modify backend,# Project 114 > ## Architecture > ### Backend,Nodiom,63,68,131,15929,0.002015,0.0017315,false,claude-opus-5
+1mb,1048705,182363,modify decision,# Project 179 > ## Decisions,Full rewrite,182363,182368,364731,0,5.4710149999999995,4.6503815,true,claude-opus-5
+1mb,1048705,182363,modify decision,# Project 179 > ## Decisions,Read + patch,182363,894,183257,0,0.934165,0.11353150000000001,false,claude-opus-5
+1mb,1048705,182363,modify decision,# Project 179 > ## Decisions,Grep + patch,4660,894,5554,0,0.04565,0.02468,false,claude-opus-5
+1mb,1048705,182363,modify decision,# Project 179 > ## Decisions,Nodiom,57,62,119,15929,0.0018350000000000003,0.0015785000000000003,false,claude-opus-5
+1mb,1048705,182363,modify notes,# Project 244 > ## Notes,Full rewrite,182363,182365,364728,0,5.47094,4.6503065,true,claude-opus-5
+1mb,1048705,182363,modify notes,# Project 244 > ## Notes,Read + patch,182363,649,183012,0,0.9280400000000001,0.10740650000000002,false,claude-opus-5
+1mb,1048705,182363,modify notes,# Project 244 > ## Notes,Grep + patch,4539,649,5188,0,0.038919999999999996,0.0184945,false,claude-opus-5
+1mb,1048705,182363,modify notes,# Project 244 > ## Notes,Nodiom,41,43,84,15929,0.0012799999999999999,0.0010955,false,claude-opus-5
+1mb,1048705,182363,modify risks,# Project 309 > ## Risks,Full rewrite,182363,182371,364734,0,5.47109,4.650456500000001,true,claude-opus-5
+1mb,1048705,182363,modify risks,# Project 309 > ## Risks,Read + patch,182363,471,182834,0,0.92359,0.1029565,false,claude-opus-5
+1mb,1048705,182363,modify risks,# Project 309 > ## Risks,Grep + patch,5097,471,5568,0,0.03726,0.014323500000000001,false,claude-opus-5
+1mb,1048705,182363,modify risks,# Project 309 > ## Risks,Nodiom,40,48,88,15929,0.0014000000000000002,0.0012200000000000002,false,claude-opus-5
