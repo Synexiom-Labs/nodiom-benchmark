@@ -147,6 +147,10 @@ async function main() {
     { name: "1mb", bytes: 1024 * 1024 }
   ];
 
+  /* corpus/ is generated and gitignored, so a fresh clone has no such
+   * directory yet. */
+  await fs.mkdir("corpus", { recursive: true });
+
   for (const target of targets) {
     const content = buildDocument(target.bytes);
     const path = `corpus/${target.name}.md`;
